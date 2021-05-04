@@ -1,0 +1,16 @@
+
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ííÿˆüÿÿÿÿ8ö¬Æß‘/
+>
+java:S1659"(Declare "subtrahend" on a separate line.(§ÔÃö
+:
+java:S1659"$Declare "answer" on a separate line.(§ÔÃö
+;
+java:S1659"%Declare "correct" on a separate line.(§ÔÃö
+N	java:S106"9Replace this use of System.out or System.err by a logger.(å„ü
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Îé†Şùÿÿÿÿ
+g
+java:S3457"Q%n should be used in place of \n to produce the platform-specific line separator.(ê©§ô
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ê©§ô
+g
+java:S3457$"Q%n should be used in place of \n to produce the platform-specific line separator.(ğÈØî
+N	java:S106$"9Replace this use of System.out or System.err by a logger.(ğÈØî

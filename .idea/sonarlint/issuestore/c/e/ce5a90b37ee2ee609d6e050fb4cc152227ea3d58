@@ -1,0 +1,15 @@
+
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ííÿˆüÿÿÿÿ8˜²Æß‘/
+h
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 28 to the 15 allowed.(Çµí‘
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Øî‡şşÿÿÿÿ
+S	java:S106!"9Replace this use of System.out or System.err by a logger.(¼÷Ş•úÿÿÿÿ
+S	java:S106$"9Replace this use of System.out or System.err by a logger.(…œ‡ûÿÿÿÿ
+S	java:S106&"9Replace this use of System.out or System.err by a logger.(‚±î‚şÿÿÿÿ
+l
+java:S3457+"Q%n should be used in place of \n to produce the platform-specific line separator.(£Üš‹üÿÿÿÿ
+S	java:S106+"9Replace this use of System.out or System.err by a logger.(£Üš‹üÿÿÿÿ
+S	java:S106-"9Replace this use of System.out or System.err by a logger.(•ø¯¯ûÿÿÿÿ
+N	java:S1069"9Replace this use of System.out or System.err by a logger.(ÉŒ
+N	java:S106;"9Replace this use of System.out or System.err by a logger.(ê‰æÜ
+S	java:S106="9Replace this use of System.out or System.err by a logger.(í‹çıÿÿÿÿ
