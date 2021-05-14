@@ -9,25 +9,11 @@ d
 4src/programming/assignment1/MultiplicationTable.java,8\9\89ad3b67ee37642ab2c1aadef8560b2f43eaaf48
 X
 (src/programming/assignment1/Tuition.java,1\4\14d84cb0193ccebf1e70092553cfb51e23c3667f
-\
-,src/programming/assignment2/MovieSeries.java,b\4\b48cb0355923e72e24483ad9067b2d9786f46084
-W
-'src/programming/assignment2/Mobile.java,6\4\640a1716c86514f1c78497a637bcc81744fc24e1
-[
-+src/programming/assignment2/HeartRates.java,a\4\a41ba5c04d50528429691af6cd8f11b78c34feed
-]
--src/programming/assignment2/HeartRateApp.java,0\4\0446891ffdefe11a21d0389fb26d33ef337e984b
-n
->src/programming/assignment2/CovidVaccineReservationSystem.java,b\6\b605948421ef781b6b9b46a9edcade2a4e5148da
 N
 src/com/company/Factorial.java,6\a\6a735a544e7fcb3608f662620a23707e38ff84e8
 P
  src/com/company/LongestWord.java,c\7\c7409d8edbc52bb7b2c81ec3a002f1fe8fe26379
-R
-"src/com/company/ReverseString.java,b\c\bcca3f654a366c918acb21024828f555a0fe6a3f
 7
 OOP.iml,4\8\48305c57b97e70ff9c5253b6f63cc5a49a4aff18
-I
-src/com/company/Test.java,9\6\96186875dce8091789a611ceab3e01bc5b450b30
-J
-src/com/company/Test2.java,c\9\c9f2ad4688ebcd38613301bb466496271d2afbcf
+P
+ src/com/company/CurrentYear.java,2\c\2c1eeed98186e3852dcea67f537735038510b971
