@@ -1,23 +1,18 @@
 package com.exception;
 
-import java.util.InputMismatchException;
-import java.util.Scanner;
-
 public class TryCatch {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int number = 0;
-
-        while (true) {
-            System.out.print("Enter a number: ");
-            try {
-                number = scanner.nextInt();
-                System.out.println(number);
-                break;
-            } catch (InputMismatchException E) {
-                System.out.println("Not matching expected input");
-                continue;
+    static void canVote(int age){
+        if(age<18)
+            try{
+                throw new Exception();
+            }catch(Exception e){
+                System.out.println("you are not an adult!");
             }
-        }
+        else
+            System.out.println("you can vote!");
+    }
+    public static void main (String[] args) {
+        canVote(20);
+        canVote(10);
     }
 }

@@ -1,16 +1,0 @@
-
-8
-java:S1659""Declare "cent" on a separate line.(Ò‰†ü
-B
-java:S1659",Declare "twentyFiveCent" on a separate line.(Ò‰†ü
-<
-java:S1659"&Declare "fiveCent" on a separate line.(Ò‰†ü
-;
-java:S1659"%Declare "oneCent" on a separate line.(Ò‰†ü
-@
-java:S1659"+Declare "fractionalStr" on a separate line.(°ï›
-S	java:S106"9Replace this use of System.out or System.err by a logger.(Ô×”íüÿÿÿÿ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(ãÑ‰Úÿÿÿÿÿ
-f
-java:S3457"Q%n should be used in place of \n to produce the platform-specific line separator.(›–Ã]
-M	java:S106"9Replace this use of System.out or System.err by a logger.(›–Ã]

@@ -2,11 +2,14 @@ package programming.assignment4;
 
 public class TestAnimals {
     public static void main(String[] args){
+        /*Create a TestAnimals program. Have the main method create and manipulate instances of the classes you
+        created above. */
         Fish d = new Fish();
         Dog c = new Dog("Trese");
         Animalia a = new Fish();
         Animalia e = new Crab();
-        Pet p = new Dog("Venice");
+        Pet p = new Dog();
+
     }
 
 }
