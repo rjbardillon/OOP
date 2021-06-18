@@ -1,0 +1,10 @@
+
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Âý±·ùÿÿÿÿ
+B
+java:S2387
+","color" is the name of a field in "Testing".(¢ªÉÓ
+P
+java:S1161":Add the "@Override" annotation above this method signature(è§©¯
+N	java:S106"9Replace this use of System.out or System.err by a logger.(¡Á°ò
+S
+java:S1197"8Move the array designator from the variable to the type.(¡þÏÖøÿÿÿÿ
