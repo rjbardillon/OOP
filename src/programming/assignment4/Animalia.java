@@ -15,7 +15,7 @@ public abstract class Animalia {
 
     /*Declare a concrete method walk that prints out something about how the animals walks (include the number of legs). */
     void walk() {
-        System.out.printf("Walks with %s legs", this.leg);
+        System.out.printf("Walks with %s legs\n", this.leg);
     }
 }
 
@@ -76,6 +76,6 @@ class Fish extends Animalia {
     }
 
     void walk() {
-        System.out.printf("Fish can't walk. They have %s", this.leg);
+        System.out.printf("Fish can't walk. They have %s legs\n", this.leg);
     }
 }

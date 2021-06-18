@@ -10,6 +10,18 @@ public class TestAnimals {
         Animalia e = new Crab();
         Pet p = new Dog();
 
+        d.eat();
+        d.walk();
+
+        c.eat();
+        c.walk();
+
+        a.eat();
+        a.walk();
+
+        e.eat();
+        e.walk();
+
     }
 
 }
