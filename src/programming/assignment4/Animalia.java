@@ -1,3 +1,8 @@
+/*
+Bardillon, Romeo Jr, M.
+BSIT 2-2
+Animalia.java
+ */
 package programming.assignment4;
 
 /*Create the Animalia class, which is the abstract superclass of all animals.*/
@@ -59,7 +64,12 @@ class Dog extends Animalia implements Pet {
 
     @Override
     void eat() {
-        System.out.println("Dog is eating");
+        if (name == "") {
+            System.out.println("Dog is eating");
+        }
+        else{
+            System.out.printf("%s is eating\n", this.name);
+        }
     }
 }
 

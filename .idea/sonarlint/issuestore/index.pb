@@ -61,3 +61,5 @@ S
 #src/com/sampleinterface/Animal.java,4\b\4bd55af9f45423bbbb60b7958d8b106e464d3fae
 V
 &src/com/sampleinterface/MammalInt.java,a\b\ab043e061dc85bd67a7fe88de947c985bc338f44
+X
+(src/programming/assignment4/Average.java,2\0\205f2fbea685572c19153cfe6b8b2ce325789b34

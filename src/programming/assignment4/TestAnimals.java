@@ -22,6 +22,8 @@ public class TestAnimals {
         e.eat();
         e.walk();
 
+        ((Dog) p).eat();
+        ((Dog) p).walk();
     }
 
 }

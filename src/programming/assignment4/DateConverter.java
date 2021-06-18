@@ -143,10 +143,10 @@ class DateConverter {
             System.out.println("Input Year between 1000 and 3000");
             try {
                 year = scanner.nextInt();
+                ob.validYear(year);
                 if (isLeapYear(year)) {
                     System.out.printf("%s is a leap year\n", year);
                 }
-                ob.validYear(year);
                 break;
             } catch (YearException e) {
                 System.out.println(e.getMessage());
