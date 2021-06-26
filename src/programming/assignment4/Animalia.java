@@ -76,7 +76,7 @@ class Dog extends Animalia implements Pet {
 /*Create the Fish class.*/
 class Fish extends Animalia {
     /*Override the Animal methods to specify that fish can't walk and don't have legs. */
-    protected Fish() {
+    Fish() {
         super(0);
     }
 

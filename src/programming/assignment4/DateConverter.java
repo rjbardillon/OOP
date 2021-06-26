@@ -95,8 +95,10 @@ class DateConverter {
     }
 
     void validDay(int month, int day, int year) throws DayException{
+        /*January to July odd months have 31 days. While the even months have 30 days.*/
         if (month <= 7) {
             if (month % 2 == 0) {
+                /*Except February that has either 29 or 28 days depends on leap year.*/
                 if (month == 2) {
                     if (isLeapYear(year)) {
                         if (day < 1 || day > 29) {
@@ -117,12 +119,17 @@ class DateConverter {
                     throw new DayException();
                 }
             }
-        } else {
+        }
+        /*Else(Months that are greater than 7. Which is months 8 to 12).*/
+        else {
+            /*Even months have 31 days. */
             if (month % 2 == 0) {
                 if (day < 1 || day > 31) {
                     throw new DayException();
                 }
-            } else {
+            }
+            /*While odd months have 30 days.*/
+            else {
                 if (day < 1 || day > 30) {
                     throw new DayException();
                 }
