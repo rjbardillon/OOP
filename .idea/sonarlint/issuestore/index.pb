@@ -2,11 +2,7 @@
 X
 (src/programming/assignment1/Lottery.java,c\e\ce5a90b37ee2ee609d6e050fb4cc152227ea3d58
 d
-4src/programming/assignment1/MathSubtractionTool.java,7\6\76aed0bee0c876f3aaff6798a132cc1313acfc2b
-d
 4src/programming/assignment1/MultiplicationTable.java,8\9\89ad3b67ee37642ab2c1aadef8560b2f43eaaf48
-X
-(src/programming/assignment1/Tuition.java,1\4\14d84cb0193ccebf1e70092553cfb51e23c3667f
 N
 src/com/company/Factorial.java,6\a\6a735a544e7fcb3608f662620a23707e38ff84e8
 P
@@ -23,10 +19,6 @@ n
 >src/programming/assignment2/CovidVaccineReservationSystem.java,b\6\b605948421ef781b6b9b46a9edcade2a4e5148da
 ]
 -src/programming/assignment2/HeartRateApp.java,0\4\0446891ffdefe11a21d0389fb26d33ef337e984b
-[
-+src/programming/assignment2/HeartRates.java,a\4\a41ba5c04d50528429691af6cd8f11b78c34feed
-W
-'src/programming/assignment2/Mobile.java,6\4\640a1716c86514f1c78497a637bcc81744fc24e1
 \
 ,src/programming/assignment2/MovieSeries.java,b\4\b48cb0355923e72e24483ad9067b2d9786f46084
 J
@@ -63,5 +55,15 @@ V
 &src/com/sampleinterface/MammalInt.java,a\b\ab043e061dc85bd67a7fe88de947c985bc338f44
 X
 (src/programming/assignment4/Average.java,2\0\205f2fbea685572c19153cfe6b8b2ce325789b34
+Y
+)src/programming/assignment4/Animalia.java,0\f\0f6b48d966ea79ea138c96486d80c9fd27ead1f5
+X
+(src/com/threads/multithreading/Main.java,1\3\134e84e4a9b791c5325bc6ed16c16b47e86ea6d5
+O
+src/com/threads/MyRunnable.java,7\8\7861d9c55991386e0917f6e254b0f87c4c5ea22e
 \
-,src/programming/assignment4/TestAnimals.java,1\5\15a5a592fa32a02218398b703bbbff5f22170272
+,src/com/threads/multithreading/MyThread.java,d\3\d3242d12d9e0bf45c44cd751ae546257965305d5
+M
+src/com/threads/MyThread.java,2\6\26b4354322ca35024c1ea0ba9c15b08c067429b5
+I
+src/com/threads/Main.java,c\5\c5992ff2246ea23385507456f1a08e31c9d2bb93
