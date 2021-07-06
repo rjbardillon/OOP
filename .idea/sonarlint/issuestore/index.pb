@@ -67,3 +67,31 @@ M
 src/com/threads/MyThread.java,2\6\26b4354322ca35024c1ea0ba9c15b08c067429b5
 I
 src/com/threads/Main.java,c\5\c5992ff2246ea23385507456f1a08e31c9d2bb93
+^
+.src/programming/assignment4/DateConverter.java,4\e\4e621727d944f5f2df9e7048c1479ed1baf609cd
+\
+,src/programming/assignment4/TestAnimals.java,1\5\15a5a592fa32a02218398b703bbbff5f22170272
+W
+'src/programming/assignment2/Mobile.java,6\4\640a1716c86514f1c78497a637bcc81744fc24e1
+[
++src/programming/assignment2/HeartRates.java,a\4\a41ba5c04d50528429691af6cd8f11b78c34feed
+d
+4src/programming/assignment1/MathSubtractionTool.java,7\6\76aed0bee0c876f3aaff6798a132cc1313acfc2b
+X
+(src/programming/assignment1/Tuition.java,1\4\14d84cb0193ccebf1e70092553cfb51e23c3667f
+A
+src/com/Demo.java,2\2\22b65bbbea4667b11e5bfcfda4af038fac26afb4
+E
+src/com/Fraction.java,0\0\0005b21df9b099daad2f8500b99ad325c0a14bc7
+P
+ src/com/fileio/New Text File.txt,3\0\3037dae95293e1c0308d3ef55011dabe106c0bae
+J
+src/com/fileio/Reader.java,e\0\e0a2f07e4a12bdcbbdc01abf141a9f293c23b9a4
+S
+#src/com/fileio/Sample Text File.txt,f\0\f0b455dc8e4633152bbc77cbcfba4567ca38e3ec
+J
+src/com/fileio/Writer.java,5\1\51f7ac8d4196b48faec98c9eeb1eaf00a901d8d1
+W
+'src/programming/assignment5/Writer.java,1\3\131bfc7934fcda32dd5ec66994931c2d9a87ecc5
+`
+0src/programming/assignment5/RationalNumbers.java,d\a\da42fe33115a682f2a7c109dd1e75321276542d6

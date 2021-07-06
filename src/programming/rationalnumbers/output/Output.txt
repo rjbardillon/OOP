@@ -1,0 +1,70 @@
+
+**********************************
+Line: 3.8 and 2.7
+**********************************
+Sum = 6.5
+Difference = 1.1
+Product = 10.26
+Quotient = 1.4074074
+3.8 is greater than 2.7
+The lowest term of 3.8 is 19/5.
+The lowest term of 2.7 is 27/10.
+0.0
+The absolute value of 3.8 is 3.8.
+The absolute value of 2.7 is 2.7.
+
+**********************************
+Line: 7.2 and 9.1
+**********************************
+Sum = 16.3
+Difference = -1.9
+Product = 65.52
+Quotient = 0.7912088
+7.2 is less than 9.1
+The lowest term of 7.2 is 36/5.
+The lowest term of 9.1 is 91/10.
+0.0
+The absolute value of 7.2 is 7.2.
+The absolute value of 9.1 is 9.1.
+
+**********************************
+Line: 4.2 and 9.7
+**********************************
+Sum = 13.9
+Difference = -5.5
+Product = 40.74
+Quotient = 0.4329897
+4.2 is less than 9.7
+The lowest term of 4.2 is 21/5.
+The lowest term of 9.7 is 97/10.
+0.0
+The absolute value of 4.2 is 4.2.
+The absolute value of 9.7 is 9.7.
+
+**********************************
+Line: 7.6 and 12.5
+**********************************
+Sum = 20.1
+Difference = -4.9
+Product = 95.0
+Quotient = 0.608
+7.6 is less than 12.5
+The lowest term of 7.6 is 38/5.
+The lowest term of 12.5 is 25/2.
+0.0
+The absolute value of 7.6 is 7.6.
+The absolute value of 12.5 is 12.5.
+
+**********************************
+Line: -78.2 and 12.3
+**********************************
+Sum = -65.9
+Difference = -90.5
+Product = -961.86
+Quotient = -6.3577237
+-78.2 is less than 12.3
+The lowest term of -78.2 is -389/5.
+The lowest term of 12.3 is 123/10.
+0.0
+The absolute value of -78.2 is 78.2.
+The absolute value of 12.3 is 12.3.

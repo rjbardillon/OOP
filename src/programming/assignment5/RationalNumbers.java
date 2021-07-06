@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 public class RationalNumbers {
     private static String formatResult(double result) {
-        return new DecimalFormat("0.00").format(result);
+        return new DecimalFormat("#,###.00").format(result);
     }
 
     public static float addition(double x, double y){
@@ -42,28 +42,30 @@ public class RationalNumbers {
 
     public static float initialFloatExtractor(String str) {
         String separator = "and";
+        String regex = "[^\\d\\. ]| \\.|\\.$";
         int sepPos = str.lastIndexOf(separator);
         if (sepPos == -1) {
             System.out.println("");
         }
-        String output = str.substring(0, sepPos).replaceAll("[^0-9]", "");
+        String output = str.substring(0, sepPos).replaceAll(regex, "");
         return Float.parseFloat(output);
     }
 
     public static float lastFloatExtractor(String str) {
         String separator = "and";
+        String regex = "[^\\d\\. ]| \\.|\\.$";
         int sepPos = str.indexOf(separator);
         if (sepPos == -1) {
             System.out.println("");
         }
-        String output = str.substring(sepPos + separator.length()).replaceAll("[^0-9]", "");
+        String output = str.substring(sepPos + separator.length()).replaceAll(regex, "");
         return Float.parseFloat(output);
     }
 
     public static void main(String[] args){
         System.out.println(subtraction(3.7, 3.3));
         System.out.println(addition(3.7, 3.31));
-        String line = "asdasdaksj1hasdjkhkj1000 and 1098";
-        System.out.printf("First num = %s Second num = %s", initialFloatExtractor(line), lastFloatExtractor(line));
+        String line = "12 and 50 1000.54 and 109.08";
+        System.out.printf("First num = %s Second num = %s", formatResult(initialFloatExtractor(line)), formatResult(lastFloatExtractor(line)));
     }
 }
