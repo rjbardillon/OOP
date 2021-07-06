@@ -1,11 +1,16 @@
-package programming.rationalnumbers;
+/*
+Bardillon, Romeo Jr, M.
+BSIT 2-2
+GetLowestTerm.java
+ */
+package programming.assignment5.rationalnumbers;
 
 import java.math.BigDecimal;
 import java.math.BigInteger;
 
-public class Fraction {
+public class GetLowestTerm {
 
-    private Fraction() {
+    private GetLowestTerm() {
         // Unused constructor
     }
 

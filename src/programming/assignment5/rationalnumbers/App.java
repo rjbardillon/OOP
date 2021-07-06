@@ -1,4 +1,9 @@
-package programming.rationalnumbers;
+/*
+Bardillon, Romeo Jr, M.
+BSIT 2-2
+App.java
+ */
+package programming.assignment5.rationalnumbers;
 
 
 import java.io.File;
@@ -6,22 +11,34 @@ import java.io.FileNotFoundException;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
-import java.util.concurrent.atomic.DoubleAdder;
 
 public class App {
     private static final String DIVIDER = "**********************************";
-    private static final File FILE = new File("C:\\Users\\romsk\\OneDrive - Polytechnic University of the " +
-            "Philippines\\Documents\\Coding\\Java\\IntelliJ\\OOP\\src\\programming\\rationalnumbers\\input\\Input.txt");
+    private static final File FILE = new File("D:/input.txt");
 
     public static void main(String[] args) throws IOException {
+
         try (Scanner scanner = new Scanner(FILE)) {
             while (scanner.hasNext()) {
                 String[] numbers = scanner.nextLine().split("and");
-
+                String separator ="√";
                 if (numbers.length == 2) {
                     String firstNumber = numbers[0];
                     String secondNumber = numbers[1];
-
+                    if (firstNumber.charAt(0) == '√'){
+                        int sepPos = firstNumber.indexOf(separator);
+                        if (sepPos == -1) {
+                            System.out.println("");
+                        }
+                        firstNumber = firstNumber.substring(sepPos + separator.length());
+                    }
+                    if (secondNumber.charAt(0) == '√'){
+                        int sepPos = secondNumber.indexOf(separator);
+                        if (sepPos == -1) {
+                            System.out.println("");
+                        }
+                        secondNumber = secondNumber.substring(sepPos + separator.length());
+                    }
                     if (RationalNumber.isRational(firstNumber) && RationalNumber.isRational(secondNumber)) {
                         RationalOperations rationalOperations = new RationalOperationsImpl(new RationalNumber(firstNumber), new RationalNumber(secondNumber));
                         writeResult(rationalOperations);
@@ -30,14 +47,13 @@ public class App {
                 }
             }
         } catch (FileNotFoundException e) {
-            e.printStackTrace();
+            System.out.println(e.getMessage());
         }
     }
 
     private static void writeResult(RationalOperations rationalOperations) {
         try {
-            FileWriter fileWriter = new FileWriter("C:\\Users\\romsk\\OneDrive - Polytechnic University of the " +
-                    "Philippines\\Documents\\Coding\\Java\\IntelliJ\\OOP\\src\\programming\\rationalnumbers\\output\\Output.txt", true);
+            FileWriter fileWriter = new FileWriter("D:/results.txt", true);
 
             fileWriter.write("\n" + DIVIDER + "\n");
             fileWriter.write("Line: " + rationalOperations.displayLine() + "\n");
@@ -51,8 +67,8 @@ public class App {
             fileWriter.write(rationalOperations.convertToFloatingPoint() + "\n");
             fileWriter.write(rationalOperations.absoluteValue() + "\n");
             fileWriter.close();
-        }catch (IOException e){
-            e.printStackTrace();
+        } catch (IOException e){
+            System.out.println(e.getMessage());
         }
     }
 

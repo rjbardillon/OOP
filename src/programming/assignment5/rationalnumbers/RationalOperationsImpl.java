@@ -1,4 +1,9 @@
-package programming.rationalnumbers;
+/*
+Bardillon, Romeo Jr, M.
+BSIT 2-2
+RationalOperationsImpl.java
+ */
+package programming.assignment5.rationalnumbers;
 
 public class RationalOperationsImpl implements RationalOperations {
 
@@ -44,8 +49,8 @@ public class RationalOperationsImpl implements RationalOperations {
 
     @Override
     public String lowestTerm() {
-        String firstNumberLowestTerm = Fraction.getFraction(firstNumber);
-        String secondNumberLowestTerm = Fraction.getFraction(secondNumber);
+        String firstNumberLowestTerm = GetLowestTerm.getFraction(firstNumber);
+        String secondNumberLowestTerm = GetLowestTerm.getFraction(secondNumber);
 
         return String.format("The lowest term of %s is %s.%nThe lowest term of %s is %s.", firstNumber.getNumber(),
                 firstNumberLowestTerm, secondNumber.getNumber(), secondNumberLowestTerm);
