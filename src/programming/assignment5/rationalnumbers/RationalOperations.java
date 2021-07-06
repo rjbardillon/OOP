@@ -18,7 +18,7 @@ public interface RationalOperations {
 
     String lowestTerm();
 
-    double convertToFloatingPoint();
+    String convertToFloatingPoint();
 
     String absoluteValue();
 

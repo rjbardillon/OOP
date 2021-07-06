@@ -79,19 +79,9 @@ d
 4src/programming/assignment1/MathSubtractionTool.java,7\6\76aed0bee0c876f3aaff6798a132cc1313acfc2b
 X
 (src/programming/assignment1/Tuition.java,1\4\14d84cb0193ccebf1e70092553cfb51e23c3667f
-A
-src/com/Demo.java,2\2\22b65bbbea4667b11e5bfcfda4af038fac26afb4
-E
-src/com/Fraction.java,0\0\0005b21df9b099daad2f8500b99ad325c0a14bc7
 P
  src/com/fileio/New Text File.txt,3\0\3037dae95293e1c0308d3ef55011dabe106c0bae
-J
-src/com/fileio/Reader.java,e\0\e0a2f07e4a12bdcbbdc01abf141a9f293c23b9a4
 S
 #src/com/fileio/Sample Text File.txt,f\0\f0b455dc8e4633152bbc77cbcfba4567ca38e3ec
 J
 src/com/fileio/Writer.java,5\1\51f7ac8d4196b48faec98c9eeb1eaf00a901d8d1
-W
-'src/programming/assignment5/Writer.java,1\3\131bfc7934fcda32dd5ec66994931c2d9a87ecc5
-`
-0src/programming/assignment5/RationalNumbers.java,d\a\da42fe33115a682f2a7c109dd1e75321276542d6
