@@ -85,3 +85,15 @@ S
 #src/com/fileio/Sample Text File.txt,f\0\f0b455dc8e4633152bbc77cbcfba4567ca38e3ec
 J
 src/com/fileio/Writer.java,5\1\51f7ac8d4196b48faec98c9eeb1eaf00a901d8d1
+A
+src/com/Demo.java,2\2\22b65bbbea4667b11e5bfcfda4af038fac26afb4
+E
+src/com/Fraction.java,0\0\0005b21df9b099daad2f8500b99ad325c0a14bc7
+J
+src/com/fileio/Reader.java,e\0\e0a2f07e4a12bdcbbdc01abf141a9f293c23b9a4
+o
+?src/programming/assignment5/rationalnumbers/RationalNumber.java,f\d\fd81f25819816c97ba38df733f84aaa42e974c98
+n
+>src/programming/assignment5/rationalnumbers/GetLowestTerm.java,5\6\56bb8210c840a3715721702633b80893f7a45eb3
+s
+Csrc/programming/assignment5/rationalnumbers/RationalOperations.java,b\b\bbdea57b027d8d4da8b919bbabdf9d1bfdabf897
