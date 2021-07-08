@@ -11,8 +11,8 @@ public class MyRunnable implements Runnable{
     ArrayList<Integer> numbers = new ArrayList<>();
     @Override
     public void run() {
-        int random = 1 + (int) (Math.random() * 10);
-        System.out.println(random);
-        numbers.add(random);
+        int randomNumber = 1 + (int) (Math.random() * 10);
+        System.out.println(randomNumber);
+        numbers.add(randomNumber);
     }
 }

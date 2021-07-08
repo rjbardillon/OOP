@@ -59,8 +59,8 @@ public class RationalOperationsImpl implements RationalOperations {
     @Override
     public String convertToFloatingPoint() {
         return String.format("The floating point of %s is %s.%nThe floating point of %s is %s.",
-                firstNumber.getNumber(), (float) firstNumber.getNumber(), secondNumber.getNumber(),
-                (float) secondNumber.getNumber());
+                firstNumber.getNumber(), new FloatingPointConverter().convertToFloatingPoint(firstNumber.getNumber()), secondNumber.getNumber(),
+                new FloatingPointConverter().convertToFloatingPoint(secondNumber.getNumber()));
     }
 
     @Override
