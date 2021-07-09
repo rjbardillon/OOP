@@ -18,9 +18,9 @@ public class Main{
         //thread2.setDaemon(true);
 
         thread1.start();
-        //thread1.join(); //calling thread (ex.main) waits until the specified thread dies or for x milliseconds
+        thread1.join(); //calling thread (ex.main) waits until the specified thread dies or for x milliseconds
         thread2.start();
 
-        //System.out.println(1/0);
+        System.out.println(1/0);
     }
 }

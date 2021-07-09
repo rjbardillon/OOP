@@ -1,6 +1,7 @@
 package programming.assignment5.rationalnumbers;
 
-import java.text.*;
+import java.text.NumberFormat;
+import java.text.DecimalFormat;
 
 public class FloatingPointConverter {
     public String convertToFloatingPoint(double maxInteger) {

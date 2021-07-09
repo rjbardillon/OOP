@@ -57,16 +57,6 @@ X
 (src/programming/assignment4/Average.java,2\0\205f2fbea685572c19153cfe6b8b2ce325789b34
 Y
 )src/programming/assignment4/Animalia.java,0\f\0f6b48d966ea79ea138c96486d80c9fd27ead1f5
-X
-(src/com/threads/multithreading/Main.java,1\3\134e84e4a9b791c5325bc6ed16c16b47e86ea6d5
-O
-src/com/threads/MyRunnable.java,7\8\7861d9c55991386e0917f6e254b0f87c4c5ea22e
-\
-,src/com/threads/multithreading/MyThread.java,d\3\d3242d12d9e0bf45c44cd751ae546257965305d5
-M
-src/com/threads/MyThread.java,2\6\26b4354322ca35024c1ea0ba9c15b08c067429b5
-I
-src/com/threads/Main.java,c\5\c5992ff2246ea23385507456f1a08e31c9d2bb93
 ^
 .src/programming/assignment4/DateConverter.java,4\e\4e621727d944f5f2df9e7048c1479ed1baf609cd
 \
@@ -85,15 +75,27 @@ S
 #src/com/fileio/Sample Text File.txt,f\0\f0b455dc8e4633152bbc77cbcfba4567ca38e3ec
 J
 src/com/fileio/Writer.java,5\1\51f7ac8d4196b48faec98c9eeb1eaf00a901d8d1
-A
-src/com/Demo.java,2\2\22b65bbbea4667b11e5bfcfda4af038fac26afb4
-E
-src/com/Fraction.java,0\0\0005b21df9b099daad2f8500b99ad325c0a14bc7
 J
 src/com/fileio/Reader.java,e\0\e0a2f07e4a12bdcbbdc01abf141a9f293c23b9a4
 o
 ?src/programming/assignment5/rationalnumbers/RationalNumber.java,f\d\fd81f25819816c97ba38df733f84aaa42e974c98
-n
->src/programming/assignment5/rationalnumbers/GetLowestTerm.java,5\6\56bb8210c840a3715721702633b80893f7a45eb3
 s
 Csrc/programming/assignment5/rationalnumbers/RationalOperations.java,b\b\bbdea57b027d8d4da8b919bbabdf9d1bfdabf897
+d
+4src/programming/assignment5/rationalnumbers/App.java,b\7\b7823a943a24ff8eafd88acf7bc19361ccb719e6
+]
+-src/programming/assignment5/threads/Main.java,5\8\587525e428894b71b9e5ac4f314e7a9e9e35efc5
+c
+3src/programming/assignment5/threads/MyRunnable.java,c\6\c6f0aba2a38b6e7cd563989ad87362140fd12792
+w
+Gsrc/programming/assignment5/rationalnumbers/RationalOperationsImpl.java,7\7\77906ccc44065ae4135d855989ebccb4a5341e24
+W
+'src/programming/assignment5/Writer.java,1\3\131bfc7934fcda32dd5ec66994931c2d9a87ecc5
+X
+(src/com/threads/multithreading/Main.java,1\3\134e84e4a9b791c5325bc6ed16c16b47e86ea6d5
+\
+,src/com/threads/multithreading/MyThread.java,d\3\d3242d12d9e0bf45c44cd751ae546257965305d5
+O
+src/com/threads/MyRunnable.java,7\8\7861d9c55991386e0917f6e254b0f87c4c5ea22e
+M
+src/com/threads/MyThread.java,2\6\26b4354322ca35024c1ea0ba9c15b08c067429b5

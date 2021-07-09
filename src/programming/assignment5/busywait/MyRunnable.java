@@ -1,14 +1,18 @@
 package programming.assignment5.busywait;
 
-public class MyRunnable implements Runnable{
+public class MyRunnable implements Runnable {
     boolean flag;
+
+    public MyRunnable(boolean flag){
+        this.flag = flag;
+    }
+
     @Override
     public void run() {
-        try {
-            Thread.sleep(5000);
-            setFlag(true);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
+        System.out.println("Thread2 is running");
+        while (isFlag()){
+            setFlag(false);
+            System.out.printf("Thread2 set the flag to %s %n", isFlag());
         }
     }
 

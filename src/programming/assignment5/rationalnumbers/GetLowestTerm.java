@@ -10,10 +10,6 @@ import java.math.BigInteger;
 
 public class GetLowestTerm {
 
-    private GetLowestTerm() {
-        // Unused constructor
-    }
-
     public static String getFraction(RationalNumber rationalNumber) {
         int[] result = convertToFraction(String.valueOf(rationalNumber.getNumber()));
         return result[0] + "/" + result[1];
