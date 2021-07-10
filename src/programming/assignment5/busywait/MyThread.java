@@ -1,30 +1,22 @@
+/*
+Bardillon, Romeo Jr, M.
+BSIT 2-2
+MyThread.java
+ */
 package programming.assignment5.busywait;
 
-public class MyThread extends Thread{
-    boolean flag;
-
-    public MyThread(boolean flag){
-        this.flag = flag;
-    }
+public class MyThread extends Thread {
 
     @Override
-    public synchronized void run() {
+    public void run() {
         try {
-            System.out.printf("Flag is initially set to %s %n", isFlag());
-            Thread.sleep(3000);
-            setFlag(true);
-            System.out.printf("Flag is set to %s %n", isFlag());
+            new BusyWait();
+            System.out.println("Thread1 started");
+            Thread.sleep(5000);
+            BusyWait.setFlag(true);
+            System.out.printf("Thread1 set the Flag to %s %n", BusyWait.isFlag());
         } catch (InterruptedException e) {
             System.out.println(e.getMessage());
         }
     }
-
-    public boolean isFlag() {
-        return flag;
-    }
-
-    public void setFlag(boolean flag) {
-        this.flag = flag;
-    }
-
 }

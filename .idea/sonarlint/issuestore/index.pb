@@ -89,6 +89,10 @@ c
 3src/programming/assignment5/threads/MyRunnable.java,c\6\c6f0aba2a38b6e7cd563989ad87362140fd12792
 w
 Gsrc/programming/assignment5/rationalnumbers/RationalOperationsImpl.java,7\7\77906ccc44065ae4135d855989ebccb4a5341e24
+w
+Gsrc/programming/assignment5/rationalnumbers/FloatingPointConverter.java,e\0\e056d153d8c6373a920e5859522c86031aae8318
+n
+>src/programming/assignment5/rationalnumbers/GetLowestTerm.java,5\6\56bb8210c840a3715721702633b80893f7a45eb3
 W
 'src/programming/assignment5/Writer.java,1\3\131bfc7934fcda32dd5ec66994931c2d9a87ecc5
 X
@@ -99,3 +103,13 @@ O
 src/com/threads/MyRunnable.java,7\8\7861d9c55991386e0917f6e254b0f87c4c5ea22e
 M
 src/com/threads/MyThread.java,2\6\26b4354322ca35024c1ea0ba9c15b08c067429b5
+I
+src/com/threads/Main.java,c\5\c5992ff2246ea23385507456f1a08e31c9d2bb93
+b
+2src/programming/assignment5/busywait/MyThread.java,1\0\10470f7010680b633acc7fc8a0da2a04045755e5
+b
+2src/programming/assignment5/busywait/BusyWait.java,1\b\1b65ba945901fc53b2e55d66c1dd61be0dfe1ab1
+^
+.src/programming/assignment5/busywait/Wait.java,8\3\83ee02e558620d25b7417c36d4ccd72382e7e06d
+d
+4src/programming/assignment5/busywait/MyRunnable.java,f\0\f036d3e8f62638ea598794d7eba281dc0751c140
